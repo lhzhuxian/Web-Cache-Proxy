@@ -1,0 +1,41 @@
+#include "serversocket.h"
+#include <stdlib.h>
+#include <cstdlib>
+#include "thread.h"
+#include "server.h"
+#include "log.h"
+#include <map>
+
+CServerPtr g_pServer = NULL;
+map<string,string> g_mapCache;
+void stopServer(){
+	if(g_pServer != NULL)
+		g_pServer->stopServer(); 
+	delete g_pServer;
+	g_pServer = NULL;
+	exit(0);
+}
+
+void sigint_handle(int sig)
+{  
+        printf("server stop\n");  
+        stopServer();
+}  
+
+int main(int argc, char ** argv){
+	signal(SIGINT,sigint_handle);
+	signal(SIGTERM,sigint_handle);
+
+	log::Log::SetFilePath("/var/log/erss/");
+	if(argc < 2)
+	{
+		printf("Usage:%s port\n",argv[0]);
+		return -1;
+	}
+	int listenPort = atoi(argv[1]);
+	g_pServer = new CServer(listenPort);
+	g_pServer->run();
+
+	stopServer();
+	return 0;
+}

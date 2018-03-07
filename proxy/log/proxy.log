@@ -1,0 +1,173 @@
+1: "POST http://ocsp.digicert.com/ HTTP/1.1" from 10.197.55.104:64267 @ Fri Mar  2 00:10:51 2018
+
+1: Requesting "http://ocsp.digicert.com/" from ocsp.digicert.com
+1: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+1: Responding "HTTP/1.1 200 OK"
+1: "POST http://ocsp.digicert.com/ HTTP/1.1" from 10.197.55.104:64267 @ Fri Mar  2 00:11:04 2018
+
+1: Requesting "http://ocsp.digicert.com/" from ocsp.digicert.com
+1: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+1: Responding "HTTP/1.1 200 OK"
+1: "POST http://ocsp.digicert.com/ HTTP/1.1" from 10.197.55.104:64267 @ Fri Mar  2 00:11:08 2018
+
+1: Requesting "http://ocsp.digicert.com/" from ocsp.digicert.com
+1: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+1: Responding "HTTP/1.1 200 OK"
+1: "POST http://ocsp.digicert.com/ HTTP/1.1" from 10.197.55.104:64267 @ Fri Mar  2 00:11:09 2018
+
+1: Requesting "http://ocsp.digicert.com/" from ocsp.digicert.com
+1: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+1: Responding "HTTP/1.1 200 OK"
+2: "GET http://www.qq.com/ HTTP/1.1" from 10.197.55.104:64283 @ Fri Mar  2 00:11:25 2018
+
+2: not in cache
+2: Requesting "http://www.qq.com/" from www.qq.com
+2: Received "HTTP/1.1 200 OK" from www.qq.com
+2: Responding "HTTP/1.1 200 OK"
+4: "GET http://mat1.gtimg.com/www/css/qq2012/hot_word_sogou.css HTTP/1.1" from 10.197.55.104:64284 @ Fri Mar  2 00:11:26 2018
+
+4: nGET http://m4: nGET http://mat1.gtimg.com/www/qq_index/css/qq_363ea330.css HTTP/1.1" from 10.197.55.104:64285 @ Fri Mar  2 00:11:26 2018
+
+4: Requesting "http://mat1.gtimg.com/www/css/qq2012/hot_word_sogou.css" from mat1.gtimg.com
+3: not in cache
+3: Requesting "http://mat1.gtimg.com/www/qq_index/css/qq_363ea330.css" from mat1.gtimg.com
+4: Received "HTTP/1.1 200 OK" from mat1.gtimg.com
+4: Responding "HTTP/1.1 200 OK"
+3: Received "HTTP/1.1 200 OK" from mat1.gtimg.com
+3: Responding "HTTP/1.1 200 OK"
+6: "POST http://ocsp.digicert.com/ HTTP/1.1" from 10.197.55.104:64405 @ Fri Mar  2 00:25:10 2018
+
+6: Requesting "http://ocsp.digicert.com/" from ocsp.digicert.com
+7: "POST http://ocsp.digicert.com/ HTTP/1.1" from 10.197.55.104:64406 @ Fri Mar  2 00:25:10 2018
+
+7: Requesting "http://ocsp.digicert.com/" from ocsp.digicert.com
+6: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+6: Responding "HTTP/1.1 200 OK"
+7: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+7: Responding "HTTP/1.1 200 OK"
+1: "GET http://mat1.gtimg.com/www/icon/favicon2.ico HTTP/1.1" from 10.197.55.104:64429 @ Fri Mar  2 00:26:06 2018
+
+1: not in cache
+1: Requesting "http://mat1.gtimg.com/www/icon/favicon2.ico" from mat1.gtimg.com
+1: Received "HTTP/1.1 200 OK" from mat1.gtimg.com
+1: Responding "HTTP/1.1 200 OK"
+3: "POST http://clients1.google.com/ocsp HTTP/1.1" from 10.197.55.104:64437 @ Fri Mar  2 00:26:13 2018
+
+3: Requesting "http://clients1.google.com/ocsp" from clients1.google.com
+3: Received "HTTP/1.1 200 OK" from clients1.google.com
+3: Responding "HTTP/1.1 200 OK"
+4: "GET http://mat1.gtimg.com/www/icon/favicon2.ico HTTP/1.1" from 10.197.55.104:64440 @ Fri Mar  2 00:26:14 2018
+
+4: in cache,valid
+5: "GET http://www.qq.com/ HTTP/1.1" from 10.197.55.104:64443 @ Fri Mar  2 00:26:20 2018
+
+5: not in cache
+5: Requesting "http://www.qq.com/" from www.qq.com
+5: Received "HTTP/1.1 200 OK" from www.qq.com
+5: Responding "HTTP/1.1 200 OK"
+6: "GET http://mat1.gtimg.com/www/qq_index/css/qq_363ea330.css HTTP/1.1" from 10.197.55.104:64445 @ Fri Mar  2 00:26:21 2018
+
+6: not in cache
+6: Requesting "http://mat1.gtimg.com/www/qq_index/css/qq_363ea330.css" from mat1.gtimg.com
+8: "GET http://mat1.gtimg.com/www/css/qq2012/hot_word_sogou.css HTTP/1.1" from 10.197.55.104:64444 @ Fri Mar  2 00:26:21 2018
+
+8: not in cache
+8: Requesting "http://mat1.gtimg.com/www/css/qq2012/hot_word_sogou.css" from mat1.gtimg.com
+6: Received "HTTP/1.1 200 OK" from mat1.gtimg.com
+6: Responding "HTTP/1.1 200 OK"
+8: Received "HTTP/1.1 200 OK" from mat1.gtimg.com
+8: Responding "HTTP/1.1 200 OK"
+1: "GET http://www.qq.com/ HTTP/1.1" from 10.197.55.104:64511 @ Fri Mar  2 00:26:50 2018
+
+1: not in cache
+1: Requesting "http://www.qq.com/" from www.qq.com
+1: Received "HTTP/1.1 200 OK" from www.qq.com
+1: Responding "HTTP/1.1 200 OK"
+2: "CONNECT push.services.mozilla.com:443 HTTP/1.1" from 10.197.55.104:64513 @ Fri Mar  2 00:27:08 2018
+
+1: "GET http://www.qq.com/ HTTP/1.1" from 10.197.55.104:64565 @ Fri Mar  2 00:34:59 2018
+
+1: not in cache
+1: Requesting "http://www.qq.com/" from www.qq.com
+1: Received "HTTP/1.1 200 OK" from www.qq.com
+1: Responding "HTTP/1.1 200 OK"
+2: "POST http://clients1.google.com/ocsp HTTP/1.1" from 10.197.55.104:64638 @ Fri Mar  2 00:45:50 2018
+
+2: Requesting "http://clients1.google.com/ocsp" from clients1.google.com
+2: Received "HTTP/1.1 200 OK" from clients1.google.com
+2: Responding "HTTP/1.1 200 OK"
+3: "POST http://ocsp.digicert.com/ HTTP/1.1" from 10.197.55.104:64669 @ Fri Mar  2 00:49:45 2018
+
+3: Requesting "http://ocsp.digicert.com/" from ocsp.digicert.com
+3: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+3: Responding "HTTP/1.1 200 OK"
+4: "CONNECT push.services.mozilla.com:443 HTTP/1.1" from 10.197.55.104:64789 @ Fri Mar  2 00:57:28 2018
+
+1: "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from 10.197.55.104:57834 @ Fri Mar  2 16:32:17 2018
+
+1: not in cache
+1: Requesting "http://detectportal.firefox.com/success.txt" from detectportal.firefox.com
+1: Received "HTTP/1.1 200 OK" from detectportal.firefox.com
+1: Responding "HTTP/1.1 200 OK"
+2: "CONNECT push.services.mozilla.com:443 HTTP/1.1" from 10.197.55.104:57837 @ Fri Mar  2 16:32:18 2018
+
+1: "POST http://ocsp.digicert.com/ HTTP/1.1" from 10.197.55.104:57834 @ Fri Mar  2 16:32:18 2018
+
+1: Requesting "http://ocsp.digicert.com/" from ocsp.digicert.com
+1: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+1: Responding "HTTP/1.1 200 OK"
+3: "POST http://clients1.google.com/ocsp HTTP/1.1" from 10.197.55.104:57850 @ Fri Mar  2 16:32:19 2018
+
+3: Requesting "http://clients1.google.com/ocsp" from clients1.google.com
+3: Received "HTTP/1.1 200 OK" from clients1.google.com
+3: Responding "HTTP/1.1 200 OK"
+1: "POST http://ocsp.digicert.com/ HTTP/1.1" from 10.197.55.104:57834 @ Fri Mar  2 16:32:20 2018
+
+1: Requesting "http://ocsp.digicert.com/" from ocsp.digicert.com
+1: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+1: Responding "HTTP/1.1 200 OK"
+3: "POST http://ocsp.digicert.com/ HTTP/1.1" from 10.197.55.104:57850 @ Fri Mar  2 16:32:21 2018
+
+3: Requesting "http://ocsp.digicert.com/" from ocsp.digicert.com
+3: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+3: Responding "HTTP/1.1 200 OK"
+1: "POST http://clients1.google.com/ocsp HTTP/1.1" from 10.197.55.104:57834 @ Fri Mar  2 16:32:22 2018
+
+1: Requesting "http://clients1.google.com/ocsp" from clients1.google.com
+1: Received "HTTP/1.1 200 OK" from clients1.google.com
+1: Responding "HTTP/1.1 200 OK"
+4: "GET http://www.cplusplus.com/ HTTP/1.1" from 10.197.55.104:57856 @ Fri Mar  2 16:32:22 2018
+
+4: not in cache
+4: Requesting "http://www.cplusplus.com/" from www.cplusplus.com
+4: Received "HTTP/1.1 200 OK" from www.cplusplus.com
+4: Responding "HTTP/1.1 200 OK"
+6: "GET http://www.cplusplus.com/v321/main.css HTTP/1.1" from 10.197.55.104:57857 @ Fri Mar  2 16:32:22 2018
+
+6: not in cache
+6: Requesting "http://www.cplusplus.com/v321/main.css" from www.cplusplus.com
+7: "GET http://www.cplusplus.com/v321/main.js HTTP/1.1" from 10.197.55.104:57858 @ Fri Mar  2 16:32:22 2018
+
+7: not in cache
+7: Requesting "http://www.cplusplus.com/v321/main.js" from www.cplusplus.com
+6: Received "HTTP/1.1 200 OK" from www.cplusplus.com
+6: Responding "HTTP/1.1 200 OK"
+7: Received "HTTP/1.1 200 OK" from www.cplusplus.com
+7: Responding "HTTP/1.1 200 OK"
+1: "POST http://ocsp.digicert.com/ HTTP/1.1" from 10.197.55.104:57834 @ Fri Mar  2 16:32:33 2018
+
+1: Requesting "http://ocsp.digicert.com/" from ocsp.digicert.com
+1: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+1: Responding "HTTP/1.1 200 OK"
+11: "CONNECT push.services.mozilla.com:443 HTTP/1.1" from 10.197.55.104:57869 @ Fri Mar  2 16:32:43 2018
+
+12: "CONNECT push.services.mozilla.com:443 HTTP/1.1" from 10.197.55.104:57873 @ Fri Mar  2 16:33:13 2018
+
+1: "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from 10.197.55.104:57834 @ Fri Mar  2 16:33:17 2018
+
+1: not in cache
+1: Requesting "http://detectportal.firefox.com/success.txt" from detectportal.firefox.com
+1: Received "HTTP/1.1 200 OK" from detectportal.firefox.com
+1: Responding "HTTP/1.1 200 OK"
+13: "CONNECT push.services.mozilla.com:443 HTTP/1.1" from 10.197.55.104:57883 @ Fri Mar  2 16:33:53 2018
+
